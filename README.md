@@ -5,6 +5,7 @@ Thank you for your interest in working at Orange Cap Innovative. First, we would
 Please fork this repo and work on the test. After finishing the test, please send your repo to benz@orangecapinnovative.com. Or you can simply reply an email that we've send you job quest link.
 
 This quest has 3 parts
+
 - **Part A: Basic JavaScript/TypeScript + Algorithm** (Any job position **must** do this part)
 - **Part B: Front-end (Coding + Architecture Design)** (Only **Front-end** or **Full-stack** position **must** do this part)
 - **Part C: Back-end (Coding + Architecture Design)** (Only **Back-end** or **Full-stack** position **must** do this part)
@@ -83,7 +84,6 @@ Error!
 
 **BUT we're not allow you to use `if/else` statement.** If there is any `if` or `else` word in your code. I will consider this question with 0 score :(
 
-
 **Example**
 
 ```javascript
@@ -100,22 +100,30 @@ FizzBuzz
 ## Part B: Front-End
 
 ### Part B1: Coding Task
+
 You are going to make a web application written with **React** which allow users to get some joke from **Chuck Norris**. His joke look like this.
 
 > Chuck Norris once ordered a Big Mac at Burger King, and got one.
 
 #### Features
+
 - Users can get a joke from [Chuck Norris API](http://www.icndb.com/api/)
 - Users has options to change number of result jokes, user's first name and last name
 - How to display the result is up to you.
 
 #### Technical description
+
 - Using data from [REST API](http://www.icndb.com/api/)
 - Using React to build the apps. (Create React Apps / Pure Webpack setup / Next.js is fine to me)
 - We allows you to use any CSS framework. (Or you don't want to use that, also OK to me)
 
 #### Bonus
+
 - You can surprise me with any extra features from my requirement. Use your imagination!
+
+#### Repo link
+
+> https://github.com/AtidSr/React-Chuck-Norris
 
 ### Part B2: Architecture Design Task
 
@@ -124,6 +132,7 @@ You are going to make a web application written with **React** which allow users
 เนื่องจาก CTO ของ Orange Cap Innovative ชอบวิ่งมาก (แบบมากๆ) ทีมเราเลยตัดสินใจจัดงานแข่งวิ่ง Marathon ในชื่อ "Orange Cap Marathon 2021" งานของคุณคือต้องออกแบบ Architecture สำหรับเว็บไซต์ในส่วนของ Front-end ที่พัฒนาด้วย React โดยระบบที่ได้รับมอบหมายจะเป็นในส่วนของการลงทะเบียนนักวิ่งที่จะเข้ามาสมัครวิ่งในงาน
 
 **Requirements และรายละเอียดของระบบ**
+
 - งานวิ่งนี้มีแค่ระยะเดียวเท่านั้น
 - การสมัครงานวิ่งนี้สมัครได้แค่ทีละคน ไม่มีการสมัครเป็นกลุ่มหลายคนให้
 - ระบบต้องสามารถจัดเก็บข้อมูลทั้งหมดเหล่านี้ได้ครบถ้วนดังต่อไปนี้
@@ -157,7 +166,7 @@ You are going to make a web application written with **React** which allow users
       - A / B / O / AB
     - ท่านมีอาการแพ้ยาหรือสารต่างๆ หรือไม่
       - หากตอบว่ามี ให้ระบุ
-    - ท่านมีโรคประจำตัว หรือไม่ 
+    - ท่านมีโรคประจำตัว หรือไม่
       - หากตอบว่ามี ให้ระบุ
     - ท่านมีประวัติการผ่าตัด มาก่อนหรือไม่
       - หากตอบว่ามี ให้ระบุตำแหน่งและปีที่รับการผ่าตัด
@@ -178,6 +187,7 @@ You are going to make a web application written with **React** which allow users
 - Assume ได้ว่าระบบนี้มี API หลังบ้านเรียบร้อยแล้วสำหรับทุก Action ที่ต้องส่งข้อมูลไปหาหลังบ้าน ไม่ต้อง Implement เอง
 
 **สิ่งที่ต้องส่งมาเป็นคำตอบ**
+
 - Folder Structure ที่จะใช้ในการจัดวาง
 - Library ที่คาดว่าจะใช้สำหรับ Project นี้ พร้อมทั้งระบุด้วยว่าทำไมถึงเลือกใช้ เช่น ใช้ lodash สำหรับการจัดการข้อมูล
 - จะต้องจัดการ State ของข้อมูลอย่างไร เพื่อรองรับกับโจทย์นี้ได้
@@ -186,7 +196,7 @@ You are going to make a web application written with **React** which allow users
 
 [English Version]
 
-We need you to help our CTO of Orange Cap who is super passionate about running and  we are going to organise the event under "Orange Cap Marathon 2021." Of course! If you saw this message, you are chosen! Your mission is to design an architecture for Front-end web apps by React on the registration page for our applicants. 
+We need you to help our CTO of Orange Cap who is super passionate about running and we are going to organise the event under "Orange Cap Marathon 2021." Of course! If you saw this message, you are chosen! Your mission is to design an architecture for Front-end web apps by React on the registration page for our applicants.
 
 **Requirements and Details :**
 
@@ -194,52 +204,52 @@ We need you to help our CTO of Orange Cap who is super passionate about running 
 - The applicant can apply ONLY one person/time. (Grouping registration is not required)
 - For the application form, all details must be included as following :
   - Personal Information
-    - Title of name 
+    - Title of name
     - First name (TH-EN)
     - Last name (TH-EN)
     - Birthdate
-    - Email 
-    - ID card no. 
+    - Email
+    - ID card no.
     - Address
-    - Contact 
+    - Contact
     - Recent photo (Straight face)
       - Minimum 300x300 pixel with Square resolution
-    - Name of registered applicant on BIB 
+    - Name of registered applicant on BIB
       - Length of name: maximum 10 characters (use ONLY Capital letter and number)
   - Applicant background
     - Have you previously run a Mini Marathon/ Half Marathon / Full Marathon?
     - What time do you expect to complete your goal in this event? (Hour/Minute)
-  - Emergency contact 
-    - Contact 1 
-      - Name - Surname 
+  - Emergency contact
+    - Contact 1
+      - Name - Surname
       - Relationship
       - Telephone number
-    - Contact 2 
-      - Name - Surname 
+    - Contact 2
+      - Name - Surname
       - Relationship
       - Telephone number
-  - Medical information 
-    - Blood type 
+  - Medical information
+    - Blood type
       - A / B / O / AB
-    - Do you have a medical allergy? 
+    - Do you have a medical allergy?
       - If yes, please fill out the detail
-    - Do you have any chronic health? 
+    - Do you have any chronic health?
       - If yes, please fill out the detail
-    - Have you had surgery before?  
+    - Have you had surgery before?
       - If yes, please fill out the detail
     - Do you have any plan for having a baby or are you pregnant before joining this event?
       - If yes, please fill out the detail
-    - Do you have any personal medicine to take? 
+    - Do you have any personal medicine to take?
       - If yes, please fill out the detail
-    - Have you ever gotten injured from a Marathon event? 
+    - Have you ever gotten injured from a Marathon event?
       - If yes, please fill out the detail
     - Do you often exercise? (at least 2-3 times / week)
     - Have you ever felt chest tightness or easily tired during working out?
       - If yes, please fill out the detail
-  - Souvenir 
-    - T-shirt 
+  - Souvenir
+    - T-shirt
       - Size XS / S / M / L / XL / XXL / XXXL
-- The register form is divided by the following topics. It is a large form. Don’t forget that the applicant cannot complete the form at one time. 
+- The register form is divided by the following topics. It is a large form. Don’t forget that the applicant cannot complete the form at one time.
 - The system must be able to save drafts in Back-end via API.
 - To save draft is not necessary to fill out all the blanks.
 - To press “Next” step needs to be a validated form completely.
@@ -247,6 +257,7 @@ We need you to help our CTO of Orange Cap who is super passionate about running 
 - It can be assumed that your system includes a totally API in every step to back-end without implementing.
 
 **Please send the answer as follows :**
+
 - Folder structure for project
 - List all of libraries use for this project and tell me why you use it. Ex. Use lodash for data management.
 - Tell me how to manage the data state in this project.
@@ -261,6 +272,7 @@ You are going to made a simple **Thai's joke API**. And this API is follow to RE
 Thai's joke API can allow user to explore, add, delete, like or dislike Thai's joke.
 
 ### Endpoints
+
 - `GET /` Get all jokes.
 - `POST /` Add new joke.
 - `GET /:id` Get joke by id.
@@ -269,10 +281,12 @@ Thai's joke API can allow user to explore, add, delete, like or dislike Thai's j
 - `POST /:id/dislike` Dislike a joke. (Same as above. Dislike spaming is fine here.)
 
 ### Technical description
+
 - All data must store to the database. Any database is fine. But we prefer **MongoDB**.
 - Back-end code must written in Node.js. Any library or helper tools is up to you (Express / Koa / Nest.js you name it).
 
 ### Bonus
+
 - If you implemented simple authentication with username and password, and also allow logged-in user to create or delete the joke. You will get a bonus for this task.
 
 ### Part C2: Architecture Design Task
@@ -282,6 +296,7 @@ Thai's joke API can allow user to explore, add, delete, like or dislike Thai's j
 เนื่องจาก CTO ของ Orange Cap Innovative ชอบวิ่งมาก (แบบมากๆ) ทีมเราเลยตัดสินใจจัดงานแข่งวิ่ง Marathon ในชื่อ "Orange Cap Marathon 2021" งานของคุณคือต้องออกแบบ Architecture สำหรับเว็บไซต์ในส่วนของ REST API Back-end โดยระบบที่ได้รับมอบหมายจะเป็นในส่วนของการลงทะเบียนนักวิ่งที่จะเข้ามาสมัครวิ่งในงาน
 
 **Requirements และรายละเอียดของระบบ**
+
 - งานวิ่งนี้มีแค่ระยะเดียวเท่านั้น
 - การสมัครงานวิ่งนี้สมัครได้แค่ทีละคน ไม่มีการสมัครเป็นกลุ่มหลายคนให้
 - ระบบต้องสามารถจัดเก็บข้อมูลทั้งหมดเหล่านี้ได้ครบถ้วนดังต่อไปนี้
@@ -315,7 +330,7 @@ Thai's joke API can allow user to explore, add, delete, like or dislike Thai's j
       - A / B / O / AB
     - ท่านมีอาการแพ้ยาหรือสารต่างๆ หรือไม่
       - หากตอบว่ามี ให้ระบุ
-    - ท่านมีโรคประจำตัว หรือไม่ 
+    - ท่านมีโรคประจำตัว หรือไม่
       - หากตอบว่ามี ให้ระบุ
     - ท่านมีประวัติการผ่าตัด มาก่อนหรือไม่
       - หากตอบว่ามี ให้ระบุตำแหน่งและปีที่รับการผ่าตัด
@@ -332,17 +347,18 @@ Thai's joke API can allow user to explore, add, delete, like or dislike Thai's j
 - Back-end จึงต้องมี API สำหรับการรองรับการ Save Draft เพื่อให้ Front-end ทำการ Save Draft ได้
 - การกดเพื่อไปขั้นตอนต่อไป จะต้องมีการ Validate Form ให้ครบถ้วนเสมอ
 - ในหน้าสุดท้าย Front-end จะมีหน้าแสดงข้อมูลทั้งหมดที่กรอกมา เพื่อให้ตรวจสอบข้อมูล ก่อนส่งใบสมัคร Back-end จึงต้องมี API สำหรับการ Submit ในขั้นตอนสุดท้าย ที่จะตรวจสอบข้อมูลว่ากรอกมาครบถ้วนหรือไม่
-ใบสมัครที่ส่งไปแล้ว จะไม่สามารถแก้ไขได้อีก
+  ใบสมัครที่ส่งไปแล้ว จะไม่สามารถแก้ไขได้อีก
 
 **สิ่งที่ต้องส่งมาเป็นคำตอบ**
+
 - Database Schema มีหน้าตาอย่างไร
 - จะใช้วิธีใดในการทำ Authentication
 - ต้องมี REST API Endpoint และ Method อะไรบ้าง (ไม่นับส่วนของการ Login / Register) ในกรณีที่ Endpoint ไหนมีการส่ง Body ต้องระบุ Body มาด้วยว่าต้องมีอะไรบ้าง (ไม่จำเป็นต้องละเอียด ในกรณีที่ field เยอะมากๆ)
-ใน API สำหรับการ Submit ส่งใบสมัคร ควรทำอะไรบ้างในขั้นตอนดังกล่าว สามารถเขียนเป็น Pseudo Code ได้
+  ใน API สำหรับการ Submit ส่งใบสมัคร ควรทำอะไรบ้างในขั้นตอนดังกล่าว สามารถเขียนเป็น Pseudo Code ได้
 - สามารถตอบเป็นภาษาไทยได้
 
 [English Version]
-We need you to help our CTO of Orange Cap who is super passionate about running and  we are going to organise the event under "Orange Cap Marathon 2021." Of course! If you saw this message, you are chosen! Your mission is to design an architecture for Front-end web apps by React on the registration page for our applicants. 
+We need you to help our CTO of Orange Cap who is super passionate about running and we are going to organise the event under "Orange Cap Marathon 2021." Of course! If you saw this message, you are chosen! Your mission is to design an architecture for Front-end web apps by React on the registration page for our applicants.
 
 **Requirements and Details:**
 
@@ -350,58 +366,59 @@ We need you to help our CTO of Orange Cap who is super passionate about running 
 - The applicant can apply ONLY one person/time. (Grouping registration is not required)
 - For the application form, all details must be included as following :
   - Personal Information
-    - Title of name 
+    - Title of name
     - First name (TH-EN)
     - Last name (TH-EN)
     - Birthdate
-    - Email 
-    - ID card no. 
+    - Email
+    - ID card no.
     - Address
-    - Contact 
+    - Contact
     - Recent photo (Straight face)
       - Minimum 300x300 pixel with Square resolution
-    - Name of registered applicant on BIB 
+    - Name of registered applicant on BIB
       - Length of name: maximum 10 characters (use ONLY Capital letter and number)
   - Applicant background
     - Have you previously run a Mini Marathon/ Half Marathon / Full Marathon?
     - What time do you expect to complete your goal in this event? (Hour/Minute)
-  - Emergency contact 
-    - Contact 1 
-      - Name - Surname 
+  - Emergency contact
+    - Contact 1
+      - Name - Surname
       - Relationship
       - Telephone number
-    - Contact 2 
-      - Name - Surname 
+    - Contact 2
+      - Name - Surname
       - Relationship
       - Telephone number
-  - Medical information 
-    - Blood type 
+  - Medical information
+    - Blood type
       - A / B / O / AB
-    - Do you have a medical allergy? 
+    - Do you have a medical allergy?
       - If yes, please fill out the detail
-    - Do you have any chronic health? 
+    - Do you have any chronic health?
       - If yes, please fill out the detail
-    - Have you had surgery before?  
+    - Have you had surgery before?
       - If yes, please fill out the detail
     - Do you have any plan for having a baby or are you pregnant before joining this event?
       - If yes, please fill out the detail
-    - Do you have any personal medicine to take? 
+    - Do you have any personal medicine to take?
       - If yes, please fill out the detail
-    - Have you ever gotten injured from a Marathon event? 
+    - Have you ever gotten injured from a Marathon event?
       - If yes, please fill out the detail
     - Do you often exercise? (at least 2-3 times / week)
     - Have you ever felt chest tightness or easily tired during working out?
       - If yes, please fill out the detail
-  - Souvenir 
-    - T-shirt 
+  - Souvenir
+    - T-shirt
       - Size XS / S / M / L / XL / XXL / XXXL
-- On the Front-end, the register form will be divided into 5 steps as the question. It is a large form. Don’t forget that the applicant cannot complete the form at one time. 
-- Back-end must provide an API to save drafts in the Front-end part. 
+- On the Front-end, the register form will be divided into 5 steps as the question. It is a large form. Don’t forget that the applicant cannot complete the form at one time.
+- Back-end must provide an API to save drafts in the Front-end part.
 - In order to proceed to next step by click “Next” button the form in that step need to be fully validate.
-- Front-end page will appear with all the filled out details before submitting the application form. Back-end  must have an API to completely submit the form in the final step.
+- Front-end page will appear with all the filled out details before submitting the application form. Back-end must have an API to completely submit the form in the final step.
 - If the applicant already sent the form, it cannot be edited any more.
 
 **Please send the answer as follows:**
+
 - Design database schema.
 - Explain how to perform authentication for some API endpoint that need to authenticate first.
 - List all REST API Endpoint for this system, some endpoint may have a request body so please specify what contains inside the body (you don't need to explain full body form, explain only important field).
