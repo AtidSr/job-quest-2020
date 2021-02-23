@@ -31,3 +31,5 @@
   - รวม state ไว้ที่ root แล้วใช้ action reducer แก้ข้อมูลใน state
 - จะใช้วิธีใดในการ Validate Form สำหรับการ Save Draft และสำหรับการ Submit
   - Validate from ตอนที่ user ใส่ข้อมูลถ้าไม่ถูกไม่ให้ไป step ต่อไป
+    - ส่วนที่ให้ user ใส่ข้อมูล ให้ string length > 4
+    - ส่วนที่คำตอบตายตัวใช้เป็น drop-down หรือ radio button ให้ user เลือกตอบ
