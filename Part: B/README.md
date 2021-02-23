@@ -7,6 +7,8 @@
 ### Part B2: Architecture Design Task
 
 - Folder Structure ที่จะใช้ในการจัดวาง
+
+```
   .
   ├── components
   │ ├── step1.js
@@ -18,6 +20,7 @@
   │ └── stepReducer.js
   ├── App.js
   └── index.js
+```
 
 - Library ที่คาดว่าจะใช้สำหรับ Project นี้ พร้อมทั้งระบุด้วยว่าทำไมถึงเลือกใช้ เช่น ใช้ lodash สำหรับการจัดการข้อมูล
   - Redux, react-redux ใช้รวม state
