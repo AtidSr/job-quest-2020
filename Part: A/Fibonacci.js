@@ -1,6 +1,6 @@
 const fib = (number) => {
-    if(number <= 2) return 1
-    return fib(number-2) + fib(number - 3)
+    if(number < 3) return 1
+    return fib(number - 1) + fib(number - 2)
 }
 
 console.log(fib(1))
