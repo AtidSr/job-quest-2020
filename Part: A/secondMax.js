@@ -2,15 +2,21 @@
 // If there is no second max, return max instead. If an array is empty, throw and error.
 
 const secondMax = (array) => {
-    if(array.length <= 0) throw 'Error!'
     let max = 0
     let secondMax = 0
-    for(let x in array) {
-        if(array[x] > max) {
-            secondMax = max
-            max = array[x]
+    try {
+        if(array.length <= 0) throw 'Error!'
+        for(let x in array) {
+            if(array[x] > max) {
+                secondMax = max
+                max = array[x]
+            }
         }
-    }
+      }
+      catch(err) {
+        return err
+      }
+
     return secondMax || max
 }
 
